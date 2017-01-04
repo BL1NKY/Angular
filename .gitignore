@@ -4,6 +4,9 @@
 .LSOverride
 config.codekit
 
+### Windows ###
+prepros-6.config
+
 # Icon must end with two \r
 Icon
 

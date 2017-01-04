@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html ng-app="directoryApp">
-	<head>
-		<!-- @import head -->
-	</head>
-
-	<body ng-controller="directoryController">
-		<!-- @import lorem -->
-		<p>
-			Search: <input type="text" ng-model="search">
-		</p>
-		<ul>
-			<li ng-repeat="item in list | filter:search">
-				{{item.name}}, <em>{{item.age}}</em>
-			</li>
-		</ul>
-		<form action="">
-			<input type="text" placeholder="Name" ng-model="name">
-			<input type="number" placeholder="Age" ng-model="age">
-			<input type="submit" value="Submit">
-		</form>
-		<!-- @import angular -->
-		<!-- @import scripts -->
-	</body>
+  <head>
+<!-- @import head -->
+  </head>
+<!-- @import lorem -->
+	<body ng-controller="directoryController as dirList">
+<!-- @import angular -->
+<!-- @import scripts -->
+  </body>
 </html>
